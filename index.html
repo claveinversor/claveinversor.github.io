@@ -4,22 +4,27 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Clave Inversor</title>
-<meta name="description" content="Las claves de dinero, inversión y negocios en 60 segundos.">
+<meta name="description" content="Las claves de dinero, inversión y negocios en 60 segundos. Redes y apps que recomendamos.">
 <link rel="icon" href="logo.png">
 <style>
-  :root { --fondo:#0a1426; --texto:#f5f7fa; --oro:#f6c43c; --verde:#2ac46e; --gris:#aab9cd; }
+  :root { --fondo:#0a1426; --tarjeta:#13223b; --texto:#f5f7fa; --oro:#f6c43c; --verde:#2ac46e; --gris:#aab9cd; --borde:#2a3b57; }
   * { box-sizing:border-box; }
-  body { margin:0; background:var(--fondo); color:var(--texto); font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; line-height:1.6; }
-  main { max-width:720px; margin:0 auto; padding:48px 16px; text-align:center; }
-  img { width:120px; height:120px; border-radius:50%; }
-  h1 { font-size:2.2rem; margin:16px 0 4px; letter-spacing:.02em; }
-  .lema { color:var(--oro); font-weight:600; margin:0 0 28px; }
-  p { color:var(--gris); }
-  .redes { display:flex; flex-wrap:wrap; gap:12px; justify-content:center; margin:28px 0; }
-  .redes a { color:var(--texto); text-decoration:none; border:1px solid #2a3b57; padding:10px 18px; border-radius:999px; }
-  .redes a:hover { border-color:var(--oro); }
-  .cta { display:inline-block; background:var(--verde); color:#06130b; font-weight:700; padding:12px 22px; border-radius:10px; text-decoration:none; }
-  footer { margin-top:48px; font-size:.85rem; color:var(--gris); }
+  body { margin:0; background:var(--fondo); color:var(--texto); font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; line-height:1.5; }
+  main { max-width:560px; margin:0 auto; padding:40px 16px; text-align:center; }
+  img { width:104px; height:104px; border-radius:50%; }
+  h1 { font-size:1.9rem; margin:12px 0 4px; }
+  .lema { color:var(--oro); font-weight:600; margin:0 0 20px; }
+  h2 { font-size:.85rem; letter-spacing:.12em; text-transform:uppercase; color:var(--gris); margin:28px 0 8px; }
+  .boton { display:block; background:var(--tarjeta); border:1px solid var(--borde); border-radius:14px; padding:14px 18px; margin:10px 0;
+           text-decoration:none; color:var(--texto); font-weight:700; }
+  .boton:hover, .app:hover { border-color:var(--oro); }
+  .app { display:block; background:var(--tarjeta); border:1px solid var(--borde); border-radius:16px; padding:16px 18px; margin:12px 0;
+         text-decoration:none; color:var(--texto); text-align:left; }
+  .app strong { font-size:1.15rem; }
+  .app span { display:block; color:var(--gris); font-size:.95rem; margin-top:4px; }
+  .app em { display:inline-block; margin-top:8px; color:var(--verde); font-style:normal; font-weight:700; }
+  .aviso { color:var(--gris); font-size:.8rem; margin-top:28px; }
+  footer { margin-top:24px; font-size:.85rem; }
   footer a { color:var(--gris); }
 </style>
 </head>
@@ -28,19 +33,21 @@
   <img src="logo.png" alt="Logo de Clave Inversor">
   <h1>Clave Inversor</h1>
   <p class="lema">Las claves de dinero, inversión y negocios en 60 segundos</p>
-  <p>Cada día publicamos los momentos más útiles de conversaciones sobre finanzas personales, inversión y
-  emprendimiento en español: cifras concretas, errores caros y consejos que puedes aplicar hoy. Todos los
-  clips acreditan y enlazan al video y al creador original.</p>
-  <div class="redes">
-    <a href="https://www.youtube.com/@claveinversor">YouTube</a>
-    <a href="https://www.instagram.com/claveinversor/">Instagram</a>
-    <a href="https://www.tiktok.com/@claveinversor">TikTok</a>
-  </div>
-  <a class="cta" href="recomendados.html">Apps que recomendamos</a>
-  <footer>
-    <p>Este sitio no entrega asesoría financiera personalizada. Investiga antes de invertir.</p>
-    <p><a href="privacidad.html">Política de privacidad</a> · <a href="terminos.html">Términos del servicio</a></p>
-  </footer>
+
+  <h2>Síguenos</h2>
+  <a class="boton" href="https://www.youtube.com/@claveinversor" rel="noopener" target="_blank">YouTube</a>
+  <a class="boton" href="https://www.instagram.com/claveinversor/" rel="noopener" target="_blank">Instagram</a>
+  <a class="boton" href="https://www.tiktok.com/@claveinversor" rel="noopener" target="_blank">TikTok</a>
+
+  <h2>Apps que usamos</h2>
+  <a class="app" href="fintual/" rel="sponsored noopener" target="_blank"><strong>Fintual</strong><span>Yo invierto en Fintual: regulada, 100% online y desde $1.000 CLP.</span><em>Abrir Fintual →</em></a>
+  <a class="app" href="racional/" rel="sponsored noopener" target="_blank"><strong>Racional</strong><span>Invierte en acciones y ETFs con Racional (te regalan $5.000 para partir).</span><em>Abrir Racional →</em></a>
+  <a class="app" href="global66/" rel="sponsored noopener" target="_blank"><strong>Global66</strong><span>Recibe y envía dinero al extranjero con Global66: tu primera transacción es gratis con este enlace.</span><em>Abrir Global66 →</em></a>
+
+  <p class="aviso">Los enlaces de apps son de <strong>referido</strong>: si te registras con ellos, el canal puede recibir
+  una comisión sin costo extra para ti. Contenido educativo, no asesoría financiera personalizada. Invertir conlleva
+  riesgos y las rentabilidades pasadas no garantizan las futuras.</p>
+  <footer><a href="privacidad.html">Privacidad</a> · <a href="terminos.html">Términos</a></footer>
 </main>
 </body>
 </html>
